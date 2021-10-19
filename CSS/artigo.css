@@ -12,6 +12,7 @@ justify-content: left;
 }
 
 p{
+
     max-width: none;
 
 }
@@ -34,4 +35,8 @@ p img{
 
 @media (max-width:722px){
    
+}
+
+.linha p {
+    max-width: 60% !important;
 }
