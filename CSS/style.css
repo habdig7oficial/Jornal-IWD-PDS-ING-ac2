@@ -104,14 +104,14 @@ p{
 
 }
 
-/*
+
 @media (max-width:720px){
     .coluna{
         flex-wrap: wrap;
     }
     
 }
-*/
+
 
 .mini{
     font-size: 80%;
