@@ -1,13 +1,18 @@
 body{
     display: flex;
 
-
+    --vermelho:#BC8F8F;
+    --branco:#fff
+    --preto:000;
+    --back:#e6e6e6;
 
 
 
     flex-direction: column;
 
     flex-wrap: wrap;
+
+    background-color: var(--back);
 
 
 }
@@ -17,7 +22,9 @@ header{
 
 
 
-    background-color: #ccc;
+    display: flex;
+
+    align-items: center;
 
 }
 

@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
 
-function criar (cl1){
+function criar (dc1, dc2, dc3, srci, alt ){
+
+
+  let main = document.querySelector("main")
 
   let div1= document.createElement("div");
 
@@ -16,7 +19,17 @@ function criar (cl1){
   let titulo = document.createElement("h3");
 
 
-  div1.className = cl1;
+  div1.className = dc1;
+
+  div2.className = dc2;
+
+  div2.className = dc3;
+
+  img.src = srci
+
+  im
+
+
 
 }
 
