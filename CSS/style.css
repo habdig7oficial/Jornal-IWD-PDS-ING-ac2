@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700;1,900&display=swap');
+
 body{
     display: flex;
 
     --vermelho:#BC8F8F;
-    --branco:#fff
+    --branco:#fff;
     --preto:000;
     --back:#e6e6e6;
 
@@ -26,6 +29,14 @@ header{
 
     align-items: center;
 
+    background-color: var(--vermelho);
+    color: (--branco);
+
+    font-size: 2rem;
+
+    border-radius: 5rem;
+    margin: 0.3rem;
+
 }
 
 header h1,main {
@@ -43,15 +54,37 @@ header h1,main {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     
+    font-family: 'Poppins', sans-serif;
+
+    justify-content: justify;
+
+
 
 }
 
 h1,h2,h3{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    
     font-weight: bold;
+}
+
+h1{
+        color: var(--branco);
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p,h1,h2,h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
 }
 
 main{
     justify-content: center;
+
 }
 
 .space-around{
@@ -79,7 +112,7 @@ main{
 
 }
 
-.all{
+.all,a{
     display: block;
     padding: 0.5rem;
 
@@ -95,7 +128,7 @@ img,p,h3,h2{
 }
 
 p{
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 
@@ -111,6 +144,9 @@ p{
 
 }
 
+img{
+    border-radius: 0.8rem;
+}
 
 @media (max-width:720px){
     .coluna{
@@ -122,4 +158,12 @@ p{
 
 .mini{
     font-size: 80%;
+
+        color: rgba(0, 0, 0, 0.4);
 }
+
+a{
+    color: var(--preto);
+    text-decoration: none;
+}
+
