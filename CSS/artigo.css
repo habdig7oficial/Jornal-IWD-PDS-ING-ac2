@@ -9,6 +9,7 @@ header{
 main{
 justify-content: left;
 
+
 }
 
 p{
@@ -23,13 +24,13 @@ img{
 
 
 }
-P,img{
-    flex-wrap: wrap;
-}
+
 
 p img{
     display: flex;
     justify-content: right;
+
+    flex-wrap: wrap;
 }
 
 
@@ -37,6 +38,7 @@ p img{
    
 }
 
-.linha p {
-    max-width: 60% !important;
+.linha p,.mw {
+    max-width: 60% 
+
 }

@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   let main = document.querySelector("main")
 
-function criar (dc1, dc2, dc3, srci, alt, titulo,txt,ref, ){
+function criar (dc1, dc2, dc3, srci, alt, titulo,txt,ref, resizer){
 
 
 
@@ -30,6 +30,10 @@ function criar (dc1, dc2, dc3, srci, alt, titulo,txt,ref, ){
   img.src = srci;
 
   img.alt = alt;
+
+  if(resizer==true){
+    img.style.maxWidth = "30rem"
+  }
 
 
   h3.innerHTML = titulo;
@@ -83,15 +87,15 @@ div_basica.appendChild(div_second_line)
 
 let retorno;
 
-retorno = criar("all","linha","coluna","https://picsum.photos/350/150","random image","Loremdedesdd Ipsum","Donec ut interdum elit. Vivamus dictum porttitor lacus, eget commodo leo. Nullam semper magna sit amet libero scelerisque placerat. Donec nec feugiat ligula. Vivamus volutpat, metus non fringilla porta, turpis mauris gravida libero, vel volutpat nunc diam vitae est. Nulla sodales orci eget ipsum gravida malesuada. Pellentesque consequat elementum lacus, elementum pellentesque neque tristique in. Donec non tristique metus. Ut sed nulla molestie, suscipit augue imperdiet, dapibus massa. Donec tempor suscipit dolor, eu sodales nisi scelerisque rhoncus. Morbi rhoncus, lacus sed tristique molestie, massa nisi vehicula ipsum, id laoreet sapien turpis quis odio. ","./artigo")
+retorno = criar("all","linha","coluna","./assets/montanha_russa.jpg","The biggest roller coaster photo","The biggest roller coaster in the world!","Would have courage to enter in this adventure?","./html/montanha_russa.html")
 
 div_first_line.appendChild(retorno)
 
-retorno = criar("all","linha","coluna","https://picsum.photos/350/150","random image","Lorem Ipsudfsdafwefsadadwefm","Donec ut interdum elit. Vivamus dictum porttitor lacus, eget commodo leo. Nullam semper magna sit amet libero scelerisque placerat. Donec nec feugiat ligula. Vivamus volutpat, metus non fringilla porta, turpis mauris gravida libero, vel volutpat nunc diam vitae est. Nulla sodales orci eget ipsum gravida malesuada. Pellentesque consequat elementum lacus, elementum pellentesque neque tristique in. Donec non tristique metus. Ut sed nulla molestie, suscipit augue imperdiet, dapibus massa. Donec tempor suscipit dolor, eu sodales nisi scelerisque rhoncus. Morbi rhoncus, lacus sed tristique molestie, massa nisi vehicula ipsum, id laoreet sapien turpis quis odio. ","./artigo")
+retorno = criar("all","linha","coluna","./assets/marvel_samples.jpg","Marvel Successes samples","Marvel Successes"," In the year 2021 the Marvel cinematographic universe rocked and surprised fans with the new series of heroes and villains.  Productions so good that it's hard to choose which was the best. ","./html/marvel_sucess.html")
 
 div_first_line.appendChild(retorno)
 
-retorno = criar("linha","all","coluna","https://picsum.photos/685/400","random image","Lorem Ipum","Donec ut interdum elit. Vivamus dictum porttitor lacus, eget commodo leo. Nullam semper magna sit amet libero scelerisque placerat. Donec nec feugiat ligula. Vivamus volutpat, metus non fringilla porta, turpis mauris gravida libero, vel volutpat nunc diam vitae est. Nulla sodales orci eget ipsum gravida malesuada. Pellentesque consequat elementum lacus, elementum pellentesque neque tristique in. Donec non tristique metus. Ut sed nulla molestie, suscipit augue imperdiet, dapibus massa. Donec tempor suscipit dolor, eu sodales nisi scelerisque rhoncus. Morbi rhoncus, lacus sed tristique molestie, massa nisi vehicula ipsum, id laoreet sapien turpis quis odio. ","./artigo")
+retorno = criar("linha","all","coluna","./assets/arists.jpg","artists to keep an eye on","3 artists to keep an eye on","  Brazilian artist Jão recently returned with his 3rd studio album which was already expected by fans 2 years after its most recent release.","./html/artists.html",true)
 
 div_second_line.appendChild(retorno)
 
@@ -104,15 +108,15 @@ div_first_column.className = "coluna"
 div_second_line.appendChild(div_first_column)
 
 
-retorno = criar("all","linha","coluna","https://picsum.photos/300/150","random image","Lorem Ipum","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, elit eget tristique tempus, nisl purus ultricies orci, ut venenatis dolor augue id arcu. Phasellus eleifend hendrerit eros porta auctor. Proin eget felis luctus, tincidunt tellus ut, vehicula nisi. In eget sagittis neque. Nunc eget quam auctor, sollicitudin erat a, volutpat dui. Nullam sodales orci vitae tempus dictum. Vivamus massa purus, auctor at dignissim et, venenatis sed ex. Cras eleifend a lacus vitae sagittis. ","./artigo")
+retorno = criar("all","linha","coluna","./assets/mine_roblox.jpeg","Minecraft vs. Roblox photo","Minecraft vs. Roblox; Which is better for kids?","Roblox was a game founded in 2006 by two friends, having a very large audience for the next few years.Minecraft was released in 2011 and is the best-selling game of all time.","./html/rm.html")
 
 div_first_column.appendChild(retorno)
 
-retorno = criar("all","linha","coluna","https://picsum.photos/350/150","random image","Loremdedesdd Ipsum","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, elit eget tristique tempus, nisl purus ultricies orci, ut venenatis dolor augue id arcu. Phasellus eleifend hendrerit eros porta auctor. Proin eget felis luctus, tincidunt tellus ut, vehicula nisi. In eget sagittis neque. Nunc eget quam auctor, sollicitudin erat a, volutpat dui. Nullam sodales orci vitae tempus dictum. Vivamus massa purus, auctor at dignissim et, venenatis sed ex. Cras eleifend a lacus vitae sagittis. ","./artigo")
+retorno = criar("all","linha","coluna","https://cdn-icons-png.flaticon.com/512/25/25231.png","Git hub logo","interact with us","you can do it in our social networks","https://github.com/habdig7oficial/Jornal-IWD-PDS-ING-ac2")
 
 div_first_column.appendChild(retorno)
 
-retorno = criar("all","linha","coluna","https://picsum.photos/300/150","random image","Lorem Ipum","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, elit eget tristique tempus, nisl purus ultricies orci, ut venenatis dolor augue id arcu. Phasellus eleifend hendrerit eros porta auctor. Proin eget felis luctus, tincidunt tellus ut, vehicula nisi. In eget sagittis neque. Nunc eget quam auctor, sollicitudin erat a, volutpat dui. Nullam sodales orci vitae tempus dictum. Vivamus massa purus, auctor at dignissim et, venenatis sed ex. Cras eleifend a lacus vitae sagittis. ","./artigo")
+retorno = criar("all","linha","coluna","https://www.gnu.org/graphics/gnu-head.jpg","GNU logo","Know the GNU project","amazsadcsdsdsddsing","https://www.gnu.org/")
 
 div_second_line.appendChild(retorno)
 
